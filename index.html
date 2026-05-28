@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ESN Vilnius Tech | Campaign Feedback</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@800&family=Inter:wght@400;600&display=swap');
+        body { font-family: 'Inter', sans-serif; }
+        h1, h2 { font-family: 'Montserrat', sans-serif; }
+        .bg-esn-blue { background-color: #003DA5; }
+        .text-esn-blue { color: #003DA5; }
+        .bg-esn-green { background-color: #7AC143; }
+        .text-esn-cyan { color: #00AEEF; }
+    </style>
+</head>
+<body class="bg-gray-50 text-gray-900">
+
+    <div class="max-w-3xl mx-auto px-6 py-12">
+        <!-- Header -->
+        <header class="mb-12 border-l-8 border-[#EC008C] pl-6">
+            <!-- Įklijuok savo logo nuorodą čia -->
+            <img src="URL_TO_YOUR_ESN_LOGO" alt="ESN Logo" class="h-16 mb-4">
+            <h1 class="text-4xl font-extrabold text-esn-blue mb-2">Campaign Feedback</h1>
+            <p class="text-gray-600 text-lg uppercase tracking-wider font-semibold">Mentorship Recruitment Strategy</p>
+        </header>
+
+        <!-- Project Overview -->
+        <section class="mb-12 bg-white p-8 rounded-lg shadow-md border-t-4 border-[#00AEEF]">
+            <h2 class="text-2xl text-esn-blue mb-4">Project Overview</h2>
+            <p class="text-gray-700 leading-relaxed mb-4">
+                Our team developed a communication campaign aimed at increasing local student engagement in the ESN Vilnius Tech mentorship program. 
+                The goal was to bridge the gap between local students and ESN, debunking the myth that the organization is exclusive to international students.
+            </p>
+        </section>
+
+        <!-- Video Section -->
+        <section class="mb-12">
+            <h2 class="text-2xl text-esn-blue mb-6">Campaign Video</h2>
+            <div class="aspect-video w-full bg-black rounded-lg overflow-hidden shadow-xl border-4 border-[#F47920]">
+                <iframe class="w-full h-full" src="https://www.youtube.com/embed/YOUR_VIDEO_ID" frameborder="0" allowfullscreen></iframe>
+            </div>
+        </section>
+
+        <!-- Feedback Form -->
+        <section class="bg-esn-blue p-8 rounded-lg text-white shadow-lg">
+            <h2 class="text-2xl mb-6 text-[#00AEEF]">Your Feedback</h2>
+            <form action="https://formspree.io/f/YOUR_FORM_ID" method="POST" class="space-y-4">
+                <div>
+                    <label class="block text-sm mb-2 font-semibold">What do you think of this advertisement?</label>
+                    <textarea name="feedback" required rows="4" class="w-full p-4 rounded text-gray-900 border-none focus:ring-4 focus:ring-[#7AC143]"></textarea>
+                </div>
+                <button type="submit" class="bg-esn-green hover:bg-[#68a83a] text-white font-bold py-3 px-8 rounded transition duration-200">
+                    Submit Feedback
+                </button>
+            </form>
+        </section>
+        
+        <footer class="mt-12 text-center text-gray-400 text-xs uppercase tracking-widest">
+            © 2026 ESN Vilnius Tech
+        </footer>
+    </div>
+</body>
+</html>
